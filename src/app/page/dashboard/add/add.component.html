@@ -1,7 +1,7 @@
 <div class="container">
     <div class="row">
         <form (submit)="createUser()">
-            <label>Email: <input [(ngModel)]="newUser.email" name="email" required></label>
+            <label>Email: <input type="text" [(ngModel)]="newUser.email" name="email" required /></label>
             <button type="submit">Create User</button>
         </form>
     </div>

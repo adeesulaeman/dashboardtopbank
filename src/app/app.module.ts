@@ -12,6 +12,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { HttpClientModule } from '@angular/common/http';
 import { UserdetailComponent } from './page/userdetail/userdetail.component';
 import { FormsModule } from '@angular/forms';
+import { DashboardModule } from './page/dashboard/dashboard.module';
 
 
 @NgModule({

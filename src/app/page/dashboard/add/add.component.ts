@@ -8,7 +8,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./add.component.scss']
 })
 export class AddComponent {
-  newUser: userPost = { email: '', first_name: '', last_name:'', avatar: '' }
+  newUser: userPost = { email: 'test', first_name: '', last_name:'', avatar: '' }
+  
   constructor(private profileService: ProfileService) {}
 
   createUser() {

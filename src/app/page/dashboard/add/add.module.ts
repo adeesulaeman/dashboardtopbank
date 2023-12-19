@@ -1,11 +1,12 @@
-import { NavbarComponent } from './../../../components/navbar/navbar.component';
+import { AddComponent } from './add.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 
 
+
 @NgModule({
-  declarations: [],
+  declarations: [AddComponent],
   imports: [
     CommonModule,
   ]

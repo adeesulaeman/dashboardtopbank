@@ -11,6 +11,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { HttpClientModule } from '@angular/common/http';
 import { UserdetailComponent } from './page/userdetail/userdetail.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { UserdetailComponent } from './page/userdetail/userdetail.component';
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [AuthService],
   bootstrap: [AppComponent]

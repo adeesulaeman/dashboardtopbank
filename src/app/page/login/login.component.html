@@ -1,0 +1,20 @@
+<app-navbar></app-navbar>
+<main>
+    <body>
+        
+        <div class="login-form">
+                <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+                <h2>Login</h2>
+                <div class="input-container">
+                    <p>Email</p>
+                    <input type="text" formControlName="username" placeholder="youremail@mail.com">
+                </div>
+                <div class="input-container">
+                    <p>Password</p>
+                    <input type="password" formControlName="password" placeholder="Enter your password">
+                </div>
+                <button type="submit">Login</button>
+            </form>
+            </div>
+    </body>
+</main>
